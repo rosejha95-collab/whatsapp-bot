@@ -8,6 +8,10 @@ const TOKEN = "EAAVqfA8hZCJkBREqMSZBHlZCA99U5cZBCDZA8ZA6mR1GGXVeTLycJMlopusaatxk
 const PHONE_ID = "982669461599208";
 const VERIFY_TOKEN = "mytoken123";
 
+app.get("/", (req, res) => {
+  res.send("Server is running 🚀");
+});
+
 // Webhook verify
 app.get("/webhook", (req, res) => {
   if (
