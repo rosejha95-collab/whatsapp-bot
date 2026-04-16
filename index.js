@@ -4,8 +4,9 @@ import fetch from "node-fetch";
 const app = express();
 app.use(express.json());
 
-const TOKEN = "YOUR_TOKEN";
-const PHONE_ID = "YOUR_PHONE_ID";
+const TOKEN = "EAAVqfA8hZCJkBREqMSZBHlZCA99U5cZBCDZA8ZA6mR1GGXVeTLycJMlopusaatxkY94HhNPAE7DCUOR0U4RTY2oVqrW3z5PAgGcfwEsNIx7nZCC0g445lXSFbx38EqxLaJL06i7KfNS86N1vot0tSUHnmFJDaJyL8ALdXRdRd8twXZBpDnt6gJ5MIO4ZCbnhPbJyLAYfE6ZCJymK3t12wrHWsfiVILRGpG4JgNo2EcUGzAnJf8zZCCKjQnKzaKfZCsHzlVJA5KK9LxLBBZCjsOkyDm0yA9XYZCPgIr0lIZAZAZB2EOQZDZD";
+const PHONE_ID = "982669461599208";
+const VERIFY_TOKEN = "mytoken123";
 
 // Webhook verify
 app.get("/webhook", (req, res) => {
