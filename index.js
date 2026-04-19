@@ -9,7 +9,6 @@ const TOKEN = process.env.TOKEN;
 const PHONE_ID = process.env.PHONE_ID;
 const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 const OPENAI_KEY = process.env.OPENAI_KEY;
-https://script.google.com/macros/s/AKfycbzfZu4PcCq_AxrR1N8ohdBWQ0iitMiBkt6Np5ZjBq7fsXVbk6AbA-vpCv5uFdky2Oxb/exec
 // 📄 Google Sheet API
 const SHEET_INVENTORY = "https://opensheet.elk.sh/1kJn4fJTcylFt3B9MIHH_89NZNuJS7N72LsRtrWI-OPE/Inventory";
 const SHEET_FAQ = "https://opensheet.elk.sh/1kJn4fJTcylFt3B9MIHH_89NZNuJS7N72LsRtrWI-OPE/FAQ";
