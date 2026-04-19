@@ -40,9 +40,9 @@ async function getFAQ(userText) {
   const res = await fetch(SHEET_FAQ);
   const data = await res.json();
 
-  const found = data.find(
-    row => row.Question?.toLowerCase() === userText.toLowerCase()
-  );
+  const found = (Array.isArray(data) ? data : (data.data || [])).find(
+  row => (row["Food Item"] || row[0] || "").toLowerCase() === userText.toLowerCase()
+);
 
   return found ? found.Answer : null;
 }
